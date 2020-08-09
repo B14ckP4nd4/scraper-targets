@@ -1,0 +1,8 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+.gitattributes !filter !diff
+README.md !filter !diff
+
+
+*.txt filter=git-crypt diff=git-crypt
